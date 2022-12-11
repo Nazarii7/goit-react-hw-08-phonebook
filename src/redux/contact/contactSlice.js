@@ -1,4 +1,5 @@
 import { createSlice, isAnyOf } from '@reduxjs/toolkit';
+
 import { fetchContacts, addContacts, removeContacts } from './operation';
 
 const extraActions = [fetchContacts, addContacts, removeContacts];
@@ -34,6 +35,7 @@ const contactSlice = createSlice({
         );
         state.contacts.items.splice(index, 1);
       })
+      .addCase()
       .addMatcher(isAnyOf(...getActions('pending')), state => {
         state.contacts.isLoading = true;
       })
@@ -49,4 +51,4 @@ const contactSlice = createSlice({
 
 export const { filterContact } = contactSlice.actions;
 
-export default contactSlice.reducer;
+export const contactsReducer = contactSlice.reducer;
