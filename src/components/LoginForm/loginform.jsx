@@ -1,4 +1,5 @@
 import { useDispatch } from 'react-redux';
+import { login } from 'redux/auth/auth-operation';
 
 export const LoginForm = () => {
   const dispatch = useDispatch();
@@ -6,12 +7,12 @@ export const LoginForm = () => {
   const handleSubmit = e => {
     e.preventDefault();
     const form = e.currentTarget;
-    dispatch();
+    dispatch(login({ email, password }));
     form.reset();
   };
 
   return (
-    <form>
+    <form onSubmit={handleSubmit} autoComplete="off">
       <label>
         Email:
         <input type="email" name="email" />

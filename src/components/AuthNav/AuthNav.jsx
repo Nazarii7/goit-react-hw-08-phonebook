@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
 export const AuthNav = () => {
-  rreturn(
+  return (
     <div>
       <NavLink to="/register">Register</NavLink>
       <NavLink to="/login">Log In</NavLink>
