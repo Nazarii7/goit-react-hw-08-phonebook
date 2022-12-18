@@ -7,7 +7,6 @@ import { Layout } from './Layout/Layout';
 import { PrivatedRoute } from './PrivateRoute';
 import { PublicRoute } from './PublicRoute';
 import { useAuth } from 'hooks/useAuth';
-import { redirect } from 'react-router';
 
 const HomePage = lazy(() => import('../pages/home'));
 const RegisterPage = lazy(() => import('../pages/register'));

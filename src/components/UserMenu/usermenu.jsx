@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { logOut } from 'redux/auth/auth-operation';
 import { useAuth } from 'hooks/useAuth';
 import css from './usermenu.module.css';
