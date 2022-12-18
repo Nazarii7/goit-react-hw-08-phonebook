@@ -1,7 +1,9 @@
+import css from './home.module.css';
+
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to Contacts!!!:|</h1>
+    <div className={css.boxhome}>
+      <h1 className={css.titlehome}>Welcome to Contacts!!!:|</h1>
     </div>
   );
 }

@@ -1,0 +1,12 @@
+.buttonLogOut {
+  font-size: 13px;
+  font-weight: bolder;
+  background-color: white;
+  color: #000000;
+  border-radius: 2px;
+  border-top: transparent;
+  border-right: transparent;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 15px;
+}

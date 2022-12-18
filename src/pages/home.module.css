@@ -1,0 +1,11 @@
+.boxhome {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titlehome {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}

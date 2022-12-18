@@ -1,4 +1,3 @@
-// import { addContact } from 'redux/contactSlice';
 import { addContacts } from 'redux/contact/operation';
 import { useSelector, useDispatch } from 'react-redux';
 import { getContacts } from 'redux/contact/selector';
