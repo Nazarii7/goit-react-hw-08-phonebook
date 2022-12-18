@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgoit_react_hw_08_phonebook=self.webpackChunkgoit_react_hw_08_phonebook||[]).push([[140],{9140:function(e,o,t){t.r(o),t.d(o,{default:function(){return _}});var n="home_boxhome__DoEi1",c="home_titlehome__9-S9S",h=t(184);function _(){return(0,h.jsx)("div",{className:n,children:(0,h.jsx)("h1",{className:c,children:"Welcome to Contacts!!!:|"})})}}}]);
-//# sourceMappingURL=140.e3123872.chunk.js.map
